@@ -1,7 +1,0 @@
-cd path/to/that/folder
-git init
-git add .
-git commit -m "Video backend for The Complete Man app"
-git branch -M main
-git remote add origin https://github.com/completemanco/complete-man-backend.git
-git push -u origin main
