@@ -3,8 +3,7 @@ import cors from "cors";
 
 const app = express();
 app.use(cors());
-app.use(express.json());
-
+app.use(express.jso
 const DAILY_API_KEY = process.env.DAILY_API_KEY;
 const DAILY_API = "https://api.daily.co/v1";
 
